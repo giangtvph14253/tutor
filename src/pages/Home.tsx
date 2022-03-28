@@ -33,7 +33,7 @@ const Home = (props: Props) => {
 
     return (
         <div>
-            {/* {loading ? <div>Loading....</div> : null} */}
+            {loading ? <div>Loading....</div> : null}
             {products.map(item => { //item = {item}
                 return <ProductItem items={item} delete={deleteProduct} /> //key(item)={value}({item})
             })}

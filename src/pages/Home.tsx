@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { getProducts, deleteProducts } from '../apis/productAPI'
+import { getProducts, deleteProducts } from '../apis/productApi'
 import ProductItem from '../components/Product'
 
 type Products = {

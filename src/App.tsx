@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import React from 'react'
 import logo from './logo.svg'
 import './App.css'
-import { Routes, Route } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 import SiteLayout from './layouts/SiteLayout'
@@ -10,8 +10,7 @@ import Admin from './pages/Admin'
 
 
 
-function App() {
-  const [count, setCount] = useState(0)
+function App() {  
 
   return (
     <div className="App">

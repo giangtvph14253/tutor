@@ -1,5 +1,4 @@
 import React from 'react'
-import Admin from '../pages/Admin'
 import { Outlet } from 'react-router-dom'
 
 type Props = {}
